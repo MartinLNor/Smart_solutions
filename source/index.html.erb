@@ -1,15 +1,21 @@
 ---
-title: Le Wagon - Middleman
+title: Norauto - Smart Solutions
 ---
+<!-- <div id="header"> -->
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-  </div>
-</div>
+<!-- </div> -->
+    <div class="container">
+      <div class="row">
+       <!-- image_tag "logo.png", width: "200"  -->
+       <% data.partners.each do |name, params| %>
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="card ptn">
+            <%= image_tag params.picture "test" %>
+            <!-- <p> <%= name.capitalize %></p> -->
+            <div class="btn btn-primary">Access to the form</div>
+          </div>
+        </div>
+       <% end %>
+     </div>
+   </div>
+
