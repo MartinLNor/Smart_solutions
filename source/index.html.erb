@@ -1,5 +1,5 @@
 ---
-title: Norauto - Smart Solutions
+title: Partner Norauto - Smart Solutions
 ---
 <!-- <div id="header"> -->
 
@@ -12,7 +12,9 @@ title: Norauto - Smart Solutions
           <div class="card ptn">
             <%= image_tag params.picture "test" %>
             <!-- <p> <%= name.capitalize %></p> -->
+            <% link_to "#{params.link}", target: "_blank" do %>
             <div class="btn btn-primary">Access to the form</div>
+            <% end %>
           </div>
         </div>
        <% end %>
