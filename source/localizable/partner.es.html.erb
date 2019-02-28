@@ -1,0 +1,23 @@
+---
+title: Partner - Smart Solutions
+---
+<div class="title-layout">
+  <%= I18n.t(:partner) %> Smart Solution
+</div>
+
+<div class="container">
+  <div class="row">
+    <% data.partners.each do |name, params| %>
+       <%if params.link_es %>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <div class="card ptn">
+              <%= image_tag params.picture "test" %>
+              <% link_to "#{params.link_es}", target: "_blank" do %>
+                <div class="btn-lg btn-primary font-weight-light"><%= I18n.t(:access) %></div>
+              <% end %>
+            </div>
+          </div>
+      <%end %>
+    <% end %>
+  </div>
+</div>

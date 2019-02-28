@@ -1,0 +1,8 @@
+fr:
+  name: 'France'
+  link: 'partner.html'
+  flag: 'flag_fr.png'
+es:
+  name: 'Spain'
+  link: 'es/partner.html'
+  flag: 'flag_es.png'

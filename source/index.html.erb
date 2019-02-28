@@ -1,23 +1,27 @@
 ---
-title: Partner Norauto - Smart Solutions
+title: Home - Smart Solutions
 ---
 <!-- <div id="header"> -->
 
 <!-- </div> -->
+<!-- Faire un fopr each sur un data/country avec test.html et drapeau par exemple -->
+
     <div class="container">
+      <h1 class="text-center title">Please select your country</h1>
       <div class="row">
        <!-- image_tag "logo.png", width: "200"  -->
-       <% data.partners.each do |name, params| %>
+       <% data.country.each do |name, params| %>
         <div class="col-xs-12 col-md-6 col-lg-4">
-          <div class="card ptn">
-            <%= image_tag params.picture "test" %>
-            <!-- <p> <%= name.capitalize %></p> -->
-            <% link_to "#{params.link}", target: "_blank" do %>
-            <div class="btn-lg btn-primary font-weight-light">Access to the form</div>
+          <div class="card flag">
+            <% link_to "#{params.link}" do %>
+              <%= image_tag params.flag "flag" %>
+             <!-- <p> <%= params.name.capitalize %></p> -->
+            <!-- <div class="btn-lg btn-primary font-weight-light">Access to the form</div> -->
             <% end %>
           </div>
         </div>
        <% end %>
      </div>
    </div>
+
 

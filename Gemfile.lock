@@ -20,7 +20,7 @@ GEM
     autoprefixer-rails (9.4.7)
       execjs
     backports (3.11.4)
-    bootstrap-sass (3.4.0)
+    bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
     byebug (10.0.2)
@@ -140,7 +140,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-sass (>= 3.4.1)
   font-awesome-sass
   jquery-middleman
   middleman (= 4.2)
