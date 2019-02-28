@@ -4,15 +4,15 @@ carglass:
   picture: "carglass.png"
 chargemap:
   link_fr: "https://chargemap.com/"
-  # link_es: "https://chargemap.com/"
+  link_es:
   picture: "chargemap.png"
 carmeleon:
   link_fr: "http://www.carmeleon.fr/"
-  # link_es: "https://chargemap.com/"
+  link_es:
   picture: "carmeleon.jpg"
 turbos_hoet:
   link_fr: "https://www.th-group.eu/fr/turbos"
-  # link_es: "https://chargemap.com/"
+  link_es:
   picture: "turbos_hoet.png"
 dekra:
   link_fr: "https://www.dekra.fr/"
