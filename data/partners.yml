@@ -1,19 +1,25 @@
 carglass:
-  link: "http://www.carglass.fr"
+  link_fr: "http://www.carglass.fr"
+  link_es: "https://www.carglass.es/"
   picture: "carglass.png"
 chargemap:
-  link: "https://chargemap.com/"
+  link_fr: "https://chargemap.com/"
+  # link_es: "https://chargemap.com/"
   picture: "chargemap.png"
 carmeleon:
-  link: "http://www.carmeleon.fr/"
+  link_fr: "http://www.carmeleon.fr/"
+  # link_es: "https://chargemap.com/"
   picture: "carmeleon.jpg"
 turbos_hoet:
-  link: "https://www.th-group.eu/fr/turbos"
+  link_fr: "https://www.th-group.eu/fr/turbos"
+  # link_es: "https://chargemap.com/"
   picture: "turbos_hoet.png"
 dekra:
-  link: "https://www.dekra.fr/"
+  link_fr: "https://www.dekra.fr/"
+  link_es: "https://www.dekra.es/es/home/"
   picture: "dekra.png"
 sixt:
-  link: "https://www.sixt.fr/"
+  link_fr: "https://www.sixt.fr/"
+  link_es: "https://www.sixt.es/"
   picture: "sixt.jpeg"
 

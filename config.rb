@@ -3,6 +3,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :sprockets
+activate :i18n, :langs => [:fr,:es]
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
